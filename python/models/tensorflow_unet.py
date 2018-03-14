@@ -6,6 +6,7 @@ from .VGG_ILSVRC_16_layers import VGG_ILSVRC_16_layers as VGG16_net
 ###########################################
 ## NEEDED TO USE MAXPOOL WITh ARGMAX
 ###########################################
+# commented by jspark
 from tensorflow.python.framework import ops
 from tensorflow.python.ops import gen_nn_ops
 @ops.RegisterGradient("MaxPoolWithArgmax")
