@@ -33,7 +33,7 @@ if not os.path.exists(output_dir):
 for filename in filenames:
     print(filename)
 
-    semantizer = Sem3D()
+    semantizer = Semantic3D()
     semantizer.set_voxel_size(voxel_size)
 
     mesh_filename = os.path.join(output_dir, filename+".ply")
