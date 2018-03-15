@@ -4,7 +4,7 @@ import scipy.misc
 from tqdm import *
 import json
 
-from python.Semantic3D import Sem3D
+from python.PcTools import Semantic3D
 
 # load the configuration file and define variables
 print("Loading configuration file")
