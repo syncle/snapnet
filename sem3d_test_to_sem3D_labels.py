@@ -4,7 +4,7 @@ import scipy.misc
 from tqdm import *
 import json
 
-from python.PcTools import Semantic3D
+from pointcloud_tools.lib.python.PcTools import Semantic3D
 
 # load the configuration file and define variables
 print("Loading configuration file")
